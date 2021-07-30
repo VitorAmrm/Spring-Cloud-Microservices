@@ -17,7 +17,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/tempdb
     username: postgres
-    password: postgres
+    password: vitor123
   rabbitmq:
     host: localhost
     port: 5672

@@ -8,11 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-service" />
-        <module name="crud-service" />
         <module name="estoque" />
-        <module name="autenticacao-service" />
-        <module name="gateway-service" />
         <module name="pagamento-service" />
+        <module name="gateway-service" />
+        <module name="crud-service" />
+        <module name="library-service" />
+        <module name="autenticacao-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="estoque" target="1.8" />
       <module name="eureka-service" target="1.8" />
       <module name="gateway-service" target="1.8" />
+      <module name="library-service" target="1.8" />
       <module name="pagamento-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -31,6 +33,7 @@
       <module name="estoque" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
+      <module name="library-service" options="-parameters" />
       <module name="pagamento-service" options="-parameters" />
     </option>
   </component>
