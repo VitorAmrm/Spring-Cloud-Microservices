@@ -22,13 +22,60 @@
       "type": "br.com.conductor.autenticacaoservice.config.ApplicationProperty$Seguranca",
       "sourceType": "br.com.conductor.autenticacaoservice.config.ApplicationProperty",
       "sourceMethod": "getSeguranca()"
+    },
+    {
+      "name": "auth.seguranca.jwt-token-config",
+      "type": "br.com.conductor.autenticacaoservice.config.ApplicationProperty$JwtTokenConfig",
+      "sourceType": "br.com.conductor.autenticacaoservice.config.ApplicationProperty$Seguranca",
+      "sourceMethod": "getJwtTokenConfig()"
     }
   ],
   "properties": [
     {
+      "name": "auth.api-info.descricao",
+      "type": "java.lang.String",
+      "sourceType": "br.com.conductor.autenticacaoservice.config.ApplicationProperty$ApiInfo"
+    },
+    {
+      "name": "auth.api-info.pacote",
+      "type": "java.lang.String",
+      "sourceType": "br.com.conductor.autenticacaoservice.config.ApplicationProperty$ApiInfo"
+    },
+    {
+      "name": "auth.api-info.titulo",
+      "type": "java.lang.String",
+      "sourceType": "br.com.conductor.autenticacaoservice.config.ApplicationProperty$ApiInfo"
+    },
+    {
+      "name": "auth.api-info.versao",
+      "type": "java.lang.String",
+      "sourceType": "br.com.conductor.autenticacaoservice.config.ApplicationProperty$ApiInfo"
+    },
+    {
       "name": "auth.base-url",
       "type": "java.lang.String",
       "sourceType": "br.com.conductor.autenticacaoservice.config.ApplicationProperty"
+    },
+    {
+      "name": "auth.parametrizacao.via-servico",
+      "type": "java.lang.Boolean",
+      "sourceType": "br.com.conductor.autenticacaoservice.config.ApplicationProperty$Parametrizacao",
+      "defaultValue": false
+    },
+    {
+      "name": "auth.seguranca.jwt-token-config.expiracao",
+      "type": "java.lang.Long",
+      "sourceType": "br.com.conductor.autenticacaoservice.config.ApplicationProperty$JwtTokenConfig"
+    },
+    {
+      "name": "auth.seguranca.jwt-token-config.segredo",
+      "type": "java.lang.String",
+      "sourceType": "br.com.conductor.autenticacaoservice.config.ApplicationProperty$JwtTokenConfig"
+    },
+    {
+      "name": "auth.seguranca.usuario-sistema-token",
+      "type": "java.lang.String",
+      "sourceType": "br.com.conductor.autenticacaoservice.config.ApplicationProperty$Seguranca"
     }
   ],
   "hints": []
