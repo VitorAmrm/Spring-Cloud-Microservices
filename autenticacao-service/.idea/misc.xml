@@ -9,7 +9,6 @@
         <option value="$PROJECT_DIR$/../crud-service/pom.xml" />
         <option value="$PROJECT_DIR$/../pagamento-service/pom.xml" />
         <option value="$PROJECT_DIR$/../estoque/pom.xml" />
-        <option value="$PROJECT_DIR$/library-service/pom.xml" />
       </list>
     </option>
   </component>
